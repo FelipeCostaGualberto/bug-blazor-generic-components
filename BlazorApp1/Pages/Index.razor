@@ -1,0 +1,6 @@
+﻿@page "/"
+
+<CrudContainer TModel="KpiModel" TDto="KpiDto" TController="IKpiController<KpiModel, KpiDto>">
+    @*<CrudHeader TModel="KpiModel" TDto="KpiDto" Text="Hello World!"/>*@ @*This works*@
+    <CrudHeader Text="Hello World!" /> @*This doesn't work*@
+</CrudContainer>
